@@ -17,4 +17,9 @@ public class LoginController {
     public String test(){
         return "nihao";
     }
+
+    @GetMapping("/test2")
+    public String test2(){
+        return "nihao";
+    }
 }
